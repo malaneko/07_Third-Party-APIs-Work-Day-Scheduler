@@ -24,6 +24,8 @@ let day = weekdays[d.getDay()]; // for each from the array
 console.log(day);
 //console.log('Today is ' + day + todayDate);
 // $('#currentDay').text(moment().format('dddd, MMMM Do'));
+// $("#jumbotron").append(todayDate);
 
+var displayDate=$('#currentDay').text(moment().format('dddd, MMMM Do'));
 
 
