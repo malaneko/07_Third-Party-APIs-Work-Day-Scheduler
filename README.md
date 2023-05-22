@@ -4,13 +4,12 @@ a simple calendar application that allows a user to save events for each hour of
 
 
 # HTML - time containers
-     Creates time containers 9am-5pm for: time, text and saving icon on the right side
 
+* Creates time containers 9am-5pm for: time, text and saving icon on the right side 
+     to present timeblocks for standard business hours when the user scrolls down.     ✔️
 
-
-
-
-
+* Uses  the [Moment.js](https://momentjs.com/) library 
+     to display the current day at the top of the calender when a user opens the planner.    
 
 
 
